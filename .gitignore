@@ -1,0 +1,4 @@
+_site/*
+.sass-cache/*
+assets/photos/originals/
+.sass-cache
