@@ -1,13 +1,13 @@
 
 title: "Film"
-description: "Explorations in Film"
-
+description: "Exploration of Film"
+baseurl: "film.rdrn.dev"
 exclude: [node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, .gitignore]
 
 #--------------------------------------------
 gallery:
   dir: photos
-  title: "Film Photography"
+  title: "Film"
   sort_field: "date"
   title_prefix: "" 
   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
