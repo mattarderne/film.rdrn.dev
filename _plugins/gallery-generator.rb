@@ -148,7 +148,7 @@ module Jekyll
 
     def generate(site)
       config = site.config["gallery"] || {}
-      dir = config["dir"] || "photos"
+      dir = config["dir"] || "film"
       galleries = []
       begin
         Dir.foreach(dir) do |gallery_dir|

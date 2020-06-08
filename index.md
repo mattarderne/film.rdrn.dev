@@ -1,4 +1,5 @@
 ---
-layout: home
+layout: gallery_index
 ---
 
+<!-- blank -->
