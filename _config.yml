@@ -1,16 +1,13 @@
 
-title: Photo Gallery
-email: 
+title: "Film"
 description: "Explorations in Film"
-# baseurl: "/"  # because served at ...github.io/recipes
-url: "https://film.rdrn.dev"
 
 exclude: [node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, .gitignore]
 
 #--------------------------------------------
 gallery:
   dir: photos
-  title: "Photos"
+  title: "Film Photography"
   sort_field: "date"
   title_prefix: "" 
   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
