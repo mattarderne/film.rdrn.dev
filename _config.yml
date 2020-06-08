@@ -2,10 +2,10 @@
 title: Photo Gallery
 email: 
 description: "Explorations in Film"
-baseurl: "/film"  # because served at ...github.io/recipes
-# url: "https://film.rdrn.dev"
+# baseurl: "/"  # because served at ...github.io/recipes
+url: "https://film.rdrn.dev"
 
-exclude: [node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, index.md, .gitignore]
+exclude: [node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, .gitignore]
 
 #--------------------------------------------
 gallery:
