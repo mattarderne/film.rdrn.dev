@@ -1,8 +1,8 @@
 
 title: "Film"
 description: "Exploration of Film"
-baseurl: "photos"
-exclude: [node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, .gitignore]
+# baseurl: "/photos"
+exclude: [draft, node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, .gitignore]
 
 #--------------------------------------------
 gallery:
