@@ -3,7 +3,6 @@ title: Photo Gallery
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Explorations in Film
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mattarderne
 
@@ -21,19 +20,19 @@ gallery:
     retina: 1.5
     
   # The following options are for individual galleries.
-gallery:
-  dir: photos
-  title: "Photos"
-  sort_field: "date"
-  thumbnail_size:
-    y: 450
-    retina: 1.5
-  galleries:
-    # b&w:
-    #   name: "b&w"
-    #   date: "2020/01/01"
-    #   best_image: 7-t.jpg
-    colour:
-      name: "colour"
-      date: "2020/01/01"
-      best_image: 12-t.jpg
+# gallery:
+#   dir: photos
+#   title: "Photos"
+#   sort_field: "date"
+#   thumbnail_size:
+#     y: 450
+#     retina: 1.5
+#   galleries:
+#     # b&w:
+#     #   name: "b&w"
+#     #   date: "2020/01/01"
+#     #   best_image: 7-t.jpg
+#     colour:
+#       name: "colour"
+#       date: "2020/01/01"
+#       best_image: 12-t.jpg
