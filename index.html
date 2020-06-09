@@ -2,7 +2,7 @@
 <html lang=en>
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+  <title></title>
 
   <meta name="viewport" content="
     width=device-width,
@@ -27,4 +27,22 @@
     });
 </script>
 
-{% include svg_shadow.html %}
+<svg class="shadow">
+  <defs>
+    <filter id="shadow">
+      <feOffset result="offOut" in="SourceAlpha" dy="2" />
+      <feBlend in="SourceGraphic" in2="offOut" mode="normal" />
+    </filter>
+  </defs>
+</svg>
+
+<div id="gallery-list">
+  
+  
+  
+</div>
+
+<script src="//danielandrade.net/gallery.js"></script>
+
+</body>
+</html>
