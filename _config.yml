@@ -5,16 +5,16 @@ description: "Exploration of Film"
 exclude: [draft, node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, .gitignore]
 
 #--------------------------------------------
-gallery:
-  dir: film
-  title: "Film"
-  sort_field: "date"
-  title_prefix: "" 
-  symlink: true            # false: copy images into _site. true: create symbolic links (saves disk space)
-  thumbnail_size:
-    y: 450
-    retina: 1.5
-    
+# gallery:
+#   dir: film
+#   title: "digital"
+#   sort_field: "date"
+#   title_prefix: "test" 
+#   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+#   thumbnail_size:
+  #     y: 450
+  #     retina: 1.5
+  
   # The following options are for individual galleries.
 gallery:
   dir: film
