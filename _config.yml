@@ -1,0 +1,34 @@
+
+title: "Film"
+description: "Exploration of Film"
+# baseurl: ""
+exclude: [draft, node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, .gitignore]
+
+#--------------------------------------------
+# gallery:
+#   dir: film
+#   title: "digital"
+#   sort_field: "date"
+#   title_prefix: "test" 
+#   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+#   thumbnail_size:
+  #     y: 450
+  #     retina: 1.5
+  
+  # The following options are for individual galleries.
+gallery:
+  dir: film
+  title: "Film"
+  sort_field: "date"
+  thumbnail_size:
+    y: 450
+    retina: 1.5
+  galleries:
+    b&w:
+      name: "b&w"
+      date: "2020/01/01"
+      # best_image: 7-t.jpg
+    colour:
+      name: "colour"
+      date: "2020/01/01"
+      # best_image: 1.jpg
