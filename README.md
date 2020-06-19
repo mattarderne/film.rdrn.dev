@@ -1,5 +1,12 @@
 # Jekyll Photo Gallery
 
+1. Git checkout deploy
+1. bundle exec jekyll serve
+1. git add . 
+1. git commit -m "changes"
+1. git push
+1. git checkout master
+
 I want to share my jekyll photo gallery, simple, functional, mobile friendly and most essential, pretty! The gallery is based on the design from [Henrrique Gusso](https://gus.so/) and utilizes the [jekyll gallery generator plugin](https://github.com/ggreer/jekyll-gallery-generator) to do most of the heavy lifting (with some minor changes).
 
 ![Example Image](https://i.imgur.com/vpmSx7S.png "Optional title")
