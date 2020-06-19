@@ -1,0 +1,8 @@
+# site lives in deploy branch
+
+1. Git checkout deploy
+1. bundle exec jekyll serve
+1. git add . 
+1. git commit -m "changes"
+1. git push
+1. git checkout master
